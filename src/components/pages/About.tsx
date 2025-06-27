@@ -12,11 +12,14 @@ const About = () => {
         </p>
         <h3 className="text-xl font-semibold mt-6">Certifications & Training</h3>
         <ul className="list-disc pl-6 space-y-2">
-          <li>AWS Certified Solutions Architect – Associate</li>
-          <li>CyberGirls Fellowship – Cybersecurity Track</li>
-          <li>Google IT Support Professional Certificate</li>
-          <li>MIT OpenCourseWare – Intro to Computer Science and Programming</li>
+          <li>AWS Certified Cloud Practitioner – Associate</li>
+          <li>CyberGirls Fellowship (Nov 2023 – Oct 2024)</li>
         </ul>
+        <div className="bg-blue-900/30 border border-blue-500/30 rounded-lg p-4 mt-6">
+          <p className="text-blue-300 font-medium">
+            Currently pursuing Kubernetes Cloud Native Associate certification.
+          </p>
+        </div>
         <h3 className="text-xl font-semibold mt-6">What I'm Learning Now</h3>
         <p>
           Exploring advanced anomaly detection techniques using unsupervised learning models and diving deeper into zero-trust architecture principles.

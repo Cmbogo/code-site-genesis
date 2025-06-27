@@ -19,7 +19,7 @@ const Navigation = ({ activePage, setActivePage }: NavigationProps) => {
     <header className="bg-gray-800 shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-          Jane Doe
+          Cicily Mbogo
         </h1>
         <nav className="space-x-6 hidden md:flex">
           {navItems.map((item) => (

@@ -14,8 +14,8 @@ const Home = () => {
         className="rounded-full w-32 h-32 object-cover mx-auto mb-6 border-2 border-blue-400"
       />
       <a
-        href="#"
-        download
+        href="/Cicily Mbogo (1).docx"
+        download="Cicily_Mbogo_Resume.docx"
         className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition"
       >
         Download Resume

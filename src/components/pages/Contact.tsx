@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
+import { Linkedin } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -80,14 +81,20 @@ const Contact = () => {
       </form>
 
       <div className="mt-8 text-center space-x-6">
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
+        <a 
+          href="https://www.linkedin.com/in/cicily-mbogo/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="inline-flex items-center text-blue-400 hover:text-blue-300"
+        >
+          <Linkedin className="w-5 h-5 mr-2" />
           LinkedIn
         </a>
         <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
           GitHub
         </a>
-        <a href="mailto:youremail@example.com" className="text-blue-400 hover:text-blue-300">
-          Email
+        <a href="mailto:cicilymbogo820@gmail.com" className="text-blue-400 hover:text-blue-300">
+          cicilymbogo820@gmail.com
         </a>
       </div>
     </section>

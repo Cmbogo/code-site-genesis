@@ -36,7 +36,7 @@ const Index = () => {
       </main>
 
       <footer className="bg-gray-800 py-6 text-center text-gray-400 text-sm">
-        © {new Date().getFullYear()} Jane Doe. All rights reserved.
+        © {new Date().getFullYear()} Cicily Mbogo. All rights reserved.
       </footer>
     </div>
   );
