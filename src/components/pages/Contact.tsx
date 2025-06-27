@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
-import { Linkedin } from "lucide-react";
+import { Linkedin, Github } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -90,7 +90,13 @@ const Contact = () => {
           <Linkedin className="w-5 h-5 mr-2" />
           LinkedIn
         </a>
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
+        <a 
+          href="https://github.com/Cmbogo/Cmbogo" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="inline-flex items-center text-blue-400 hover:text-blue-300"
+        >
+          <Github className="w-5 h-5 mr-2" />
           GitHub
         </a>
         <a href="mailto:cicilymbogo820@gmail.com" className="text-blue-400 hover:text-blue-300">

@@ -1,6 +1,4 @@
 
-import { Github } from 'lucide-react';
-
 const Home = () => {
   return (
     <section className="text-center">
@@ -15,16 +13,6 @@ const Home = () => {
         alt="Cicily Mbogo"
         className="rounded-full w-32 h-32 object-cover mx-auto mb-6 border-2 border-blue-400"
       />
-      <div className="flex justify-center items-center gap-4 mb-6">
-        <a
-          href="https://github.com/Cmbogo/Cmbogo"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-400 hover:text-blue-300 transition"
-        >
-          <Github size={32} />
-        </a>
-      </div>
       <a
         href="/Cicily Mbogo (1).docx"
         download="Cicily_Mbogo_Resume.docx"
